@@ -40,7 +40,7 @@ public class TestBaseSetup extends Base {
 			capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.3");
 			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 7");
 			capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
-			capabilities.setCapability("app", "/Users/amitakhyabhuyan/Downloads/starscream2.app");
+			capabilities.setCapability("app", "/Users/sonaliGupta/Downloads/starscream2.app");
 			capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
 		} else {
 			System.out.println("Android automation");
